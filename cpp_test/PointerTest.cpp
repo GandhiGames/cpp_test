@@ -25,3 +25,4 @@ T PointerTest<T>::getPointer()
 {
     return *testNum;
 }
+

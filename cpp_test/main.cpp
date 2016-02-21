@@ -12,6 +12,9 @@
 #include <iomanip>
 #include "GuessingGame.hpp"
 #include "PointerTest.hpp"
+#include "PointerReferenceTest.hpp"
+#include "ForLoopTest.hpp"
+#include "CallByRefExample.hpp"
 
 using namespace std;
 
@@ -21,7 +24,14 @@ void printAsciiTable();
 
 int main() {
    
-
+    int i = 1;
+    
+    printf("value before call: %d \n", i);
+    
+    CallByRefExample test;
+    test.IncrementNum(&i);
+    
+    printf("value after call: %d\n", i);
     
     return 0;
 }

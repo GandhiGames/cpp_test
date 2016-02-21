@@ -24,7 +24,6 @@ public:
     void setPointer(T);
     T* getMemoryPosition();
     T getPointer();
-    
 };
 
 #endif /* PointerTest_hpp */
