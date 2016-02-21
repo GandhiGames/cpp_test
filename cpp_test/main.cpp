@@ -29,7 +29,8 @@ int main() {
     printf("value before call: %d \n", i);
     
     CallByRefExample test;
-    test.IncrementNum(&i);
+    test.IncrementNumExplicit(&i);
+    test.IncrementNumImplicit(i);
     
     printf("value after call: %d\n", i);
     

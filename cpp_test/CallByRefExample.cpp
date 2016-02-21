@@ -8,7 +8,12 @@
 
 #include "CallByRefExample.hpp"
 
-void CallByRefExample::IncrementNum(int* num)
+void CallByRefExample::IncrementNumExplicit(int* num)
 {
     (*num)++;
+}
+
+void CallByRefExample::IncrementNumImplicit(int & num)
+{
+    num++;
 }

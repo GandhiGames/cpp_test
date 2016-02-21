@@ -13,7 +13,8 @@
 
 class CallByRefExample {
 public:
-    void IncrementNum(int*);
+    void IncrementNumExplicit(int*);
+    void IncrementNumImplicit(int&);
 };
 
 #endif /* CallByRefExample_hpp */
