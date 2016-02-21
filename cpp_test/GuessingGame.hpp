@@ -26,6 +26,7 @@ private:
     
 public:
     void run();
+    ~GuessingGame();
     
 };
 

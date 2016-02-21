@@ -11,6 +11,7 @@
 #include <ctime>
 #include <iomanip>
 #include "GuessingGame.hpp"
+#include "PointerTest.hpp"
 
 using namespace std;
 
@@ -20,9 +21,7 @@ void printAsciiTable();
 
 int main() {
    
-    GuessingGame game;
-    
-    game.run();
+
     
     return 0;
 }

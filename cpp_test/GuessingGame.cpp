@@ -9,6 +9,11 @@
 #include "GuessingGame.hpp"
 
 
+GuessingGame::~GuessingGame()
+{
+    cout<<"GuessingGame Deconstructor"<<endl;
+}
+
 bool GuessingGame::guess(int num)
 {
     if (num < randNum) {

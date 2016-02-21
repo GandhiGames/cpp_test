@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D647E0961C7A2B460072FECA /* GuessingGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D647E0941C7A2B460072FECA /* GuessingGame.cpp */; };
+		D647E0991C7A3C790072FECA /* PointerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D647E0971C7A3C790072FECA /* PointerTest.cpp */; };
 		D6526B371C7A13D90078A7B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6526B361C7A13D90078A7B3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		D647E0941C7A2B460072FECA /* GuessingGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GuessingGame.cpp; sourceTree = "<group>"; };
 		D647E0951C7A2B460072FECA /* GuessingGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GuessingGame.hpp; sourceTree = "<group>"; };
+		D647E0971C7A3C790072FECA /* PointerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointerTest.cpp; sourceTree = "<group>"; };
+		D647E0981C7A3C790072FECA /* PointerTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PointerTest.hpp; sourceTree = "<group>"; };
 		D6526B331C7A13D90078A7B3 /* cpp_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6526B361C7A13D90078A7B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +66,8 @@
 				D6526B361C7A13D90078A7B3 /* main.cpp */,
 				D647E0941C7A2B460072FECA /* GuessingGame.cpp */,
 				D647E0951C7A2B460072FECA /* GuessingGame.hpp */,
+				D647E0971C7A3C790072FECA /* PointerTest.cpp */,
+				D647E0981C7A3C790072FECA /* PointerTest.hpp */,
 			);
 			path = cpp_test;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D647E0961C7A2B460072FECA /* GuessingGame.cpp in Sources */,
+				D647E0991C7A3C790072FECA /* PointerTest.cpp in Sources */,
 				D6526B371C7A13D90078A7B3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
