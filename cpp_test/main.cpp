@@ -10,30 +10,34 @@
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
+#include "GuessingGame.hpp"
 
 using namespace std;
 
-int getRandomNumber(int start, int end) {
-    srand(static_cast<unsigned>(time(0)));
-    return (rand() % end) + start;
+
+void refAddFive(int&, int&);
+void printAsciiTable();
+
+int main() {
+   
+    GuessingGame game;
+    
+    game.run();
+    
+    return 0;
 }
+
+void refAddFive(int& a, int& b){
+    a += 5;
+    b += 5;
+}
+
 
 void printAsciiTable() {
     char temp;
-     
-     for (int i = 0; i < 128; i++) {
-     temp = i;
-     cout<<i<<": "<<temp<<endl;
-     }
-}
-
-int main(int argc, const char * argv[]) {
-   
-    printAsciiTable();
     
-  
-    cout<<getRandomNumber(1, 10)<<endl;
-    
-    
-    return 0;
+    for (int i = 0; i < 128; i++) {
+        temp = i;
+        cout<<i<<": "<<temp<<endl;
+    }
 }
